@@ -1,0 +1,33 @@
+<!--
+  Generated template for the OrderPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title >Order</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content >
+
+  <table  width=300 align=center>
+
+    <br>
+<tr><td color="danger"><b>No.</b></td> <td colspan=4 ><b>Items</b></td> <td colspan=3><b>Qty.</b> </td><td colspan=2><b>Price</b></td></tr>
+    <br>
+<tr><td>1</td> <td colspan=4 >Coke</td> <td colspan=3><ion-icon name="md-add-circle" (click)= "showAlertPopUp();"></ion-icon> 2 <ion-icon name="md-remove-circle" (click)= "showAlertPopUp();"></ion-icon></td><td colspan=2>5 $</td></tr>
+    <br>
+<tr><td>2</td> <td colspan=4 >Cheese Burger</td> <td colspan=3><ion-icon name="md-add-circle" (click)= "showAlertPopUp();"></ion-icon> 2 <ion-icon name="md-remove-circle" (click)= "showAlertPopUp();"></ion-icon></td><td colspan=2>15 $</td></tr>
+    <br>
+<tr><td>3</td> <td colspan=4 >Creamy Pizza</td> <td colspan=3><ion-icon name="md-add-circle" (click)= "showAlertPopUp();"></ion-icon> 1 <ion-icon name="md-remove-circle" (click)= "showAlertPopUp();"></ion-icon></td><td colspan=2>30 $</td></tr>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+<tr><td colspan="10"><button ion-button full color="secondary" (click)="showConfirm();">Review your order</button> </td></tr>
+
+  </table>
+
+</ion-content>

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title align="center" >
+      Cafe App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+<table  align=center>
+  <br><br><br><br><br><br>
+  <tr align=center>
+<button ion-button icon-left color="dark" round (click)="gotoOrderPage();">
+  <ion-icon name="cart" outline></ion-icon>
+  Order
+</button>
+</tr>
+<br><br>
+<tr>
+<button ion-button icon-left color="secondary" round (click)="gotoQuickOrderPage();">
+<ion-icon name="cart"></ion-icon>
+Quick Order
+</button>
+</tr>
+</table>
+</ion-content>

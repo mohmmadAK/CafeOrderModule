@@ -1,0 +1,44 @@
+<!--
+  Generated template for the QuickOrderPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title>Quick Order</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+    <table  width=300 align=center>
+      <br>
+  <tr><td color="blue"><b>No.</b></td> <td colspan=4 ><b>Items</b></td> <td colspan=3><b>Qty.</b> </td><td colspan=2><b>Price</b></td></tr>
+      <br>
+  <tr><td>1</td>
+    <td colspan=4 >Coffe</td>
+    <td colspan=3> 1 </td>
+    <td colspan=2>5 $</td></tr>
+      <br> 
+  <tr><td>2</td>
+    <td colspan=4 >Ice shake</td>
+    <td colspan=3> 1 </td>
+    <td colspan=2>5 $</td></tr>
+    <br>
+    <tr><td></td>
+    <td colspan=4> </td>
+    <td colspan=3> Total: </td>
+    <td colspan=2>10 $</td></tr>
+
+      <br><br><br><br><br><br><br><br><br><br><br>
+  <tr><td colspan="4"><button ion-button color="danger" round (click)="onCancel();" >Cancel</button> </td>
+      <td colspan="6"><button ion-button color="secondary" round (click)="showAlertPopUp();">Submit Order</button> </td></tr>
+
+
+    </table>
+
+</ion-content>
